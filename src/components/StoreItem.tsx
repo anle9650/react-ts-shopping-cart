@@ -23,7 +23,7 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemsProps) {
     <Card className="h-100">
       <Card.Img
         variant="top"
-        src={new URL(imgUrl, import.meta.url).href}
+        src={new URL(`../assets${imgUrl}`, import.meta.url).href}
         height="200px"
         style={{ objectFit: "cover" }}
       />
