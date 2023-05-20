@@ -23,7 +23,7 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemsProps) {
     <Card className="h-100">
       <Card.Img
         variant="top"
-        src={"./react-ts-shopping-cart/" + imgUrl}
+        src={"./react-ts-shopping-cart" + imgUrl}
         height="200px"
         style={{ objectFit: "cover" }}
       />
